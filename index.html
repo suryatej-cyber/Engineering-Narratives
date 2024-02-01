@@ -7,22 +7,33 @@
     <title>Engineering Narratives - Bridging Communities through Stories</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
         }
 
         header {
             text-align: center;
-            margin-bottom: 20px;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #007BFF;
         }
 
         section {
-            margin-bottom: 40px;
+            margin: 40px 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h2 {
-            color: #007BFF;
+        .mission-statement {
+            color: #495057;
         }
 
         .featured-stories {
@@ -33,18 +44,23 @@
 
         .story-card {
             width: 300px;
-            margin: 10px;
-            padding: 10px;
-            border: 1px solid #DDD;
-            border-radius: 5px;
-            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .story-card:hover {
+            transform: scale(1.05);
         }
 
         footer {
             text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #f8f9fa;
+            padding: 20px;
+            background-color: #007BFF;
+            color: #ffffff;
         }
     </style>
 </head>
@@ -58,36 +74,32 @@
 
     <section>
         <h2>Mission Statement</h2>
-        <p>To highlight the human side of engineering by collecting and sharing personal narratives, fostering a sense of community, breaking stereotypes, and inspiring the next generation of engineers.</p>
+        <p class="mission-statement">To highlight the human side of engineering by collecting and sharing personal narratives, fostering a sense of community, breaking stereotypes, and inspiring the next generation of engineers.</p>
     </section>
 
     <section>
         <h2>Featured Stories</h2>
         <div class="featured-stories">
-            <!-- Example Story Card -->
+            <!-- Example Story Card 1 -->
             <div class="story-card">
                 <h3>Sirisha Mallampati</h3>
                 <p>Software Engineer</p>
                 <p>Sirisha shares her journey into the world of coding and how she overcame challenges to become a successful software engineer.</p>
             </div>
-            <!-- Add more story cards as needed -->
+
+            <!-- Example Story Card 2 -->
             <div class="story-card">
                 <h3>Chaithanya</h3>
                 <p>Software Engineer</p>
                 <p>Chaithanya's story explores his passion for software development and the innovative projects that have shaped his career in engineering.</p>
             </div>
+            <!-- Add more story cards as needed -->
         </div>
     </section>
 
     <section>
         <h2>Submit Your Story</h2>
         <p>We invite engineers, engineering students, and professionals to share their personal narratives. Your story can inspire and contribute to a richer understanding of the engineering community.</p>
-        <p>Submission Guidelines:</p>
-        <ul>
-            <li>Focus on your personal journey, experiences, and challenges in the field of engineering.</li>
-            <li>Ensure your story is respectful and inclusive.</li>
-            <!-- Add more guidelines as needed -->
-        </ul>
         <p><strong>Note:</strong> By submitting your story, you acknowledge that it will be posted online to share your inspiring stories with a wider audience.</p>
         <p>Contact us at <a href="mailto:emailsuryatej@gmail.com">emailsuryatej@gmail.com</a> to submit your story.</p>
     </section>
